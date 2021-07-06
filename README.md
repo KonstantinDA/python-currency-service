@@ -5,7 +5,7 @@ python, fastAPI, Mongo, Docker
 - pip install pipenv
 - pipenv shell
 - pipenv install --system --deploy
-- uvicorn route:app --host 0.0.0.0 --port 8000 --reload
+- python app/app.py
 
 ## How to run with docker
 - docker-compose build
